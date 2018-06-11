@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: jenks
+Version: 1.0
+Summary: Cython implementation of jenks natural breaks algorithm
+Home-page: https://github.com/perrygeo/jenks
+Author: Matthew Perry
+Author-email: perrygeo@gmail.com
+License: BSD
+Description: UNKNOWN
+Keywords: gis geospatial geographic statistics numpy cython choropleth
+Platform: UNKNOWN

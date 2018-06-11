@@ -1,0 +1,19 @@
+    if (FromMonthNo < 10):
+        FromMonthNo_Pre="0"+str(FromMonthNo)
+    else:
+        FromMonthNo_Pre=str(FromMonthNo)
+
+
+    if(int(FromMonthNo)<=12):
+        FromDate='94/'+FromMonthNo_Pre+'/01'
+    else:
+        FromDate='95/'+"0"+str(int(FromMonthNo)-12)+'/01'
+
+
+    if (ToMonthNo>12):
+        ToMonthNo_Pre="0"+str((int(ToMonthNo)-12))
+        ToDate='95/'+ToMonthNo_Pre+'/30'
+    else:
+        if(ToMonthNo<10):
+            ToMonthNo_Pre = "0" + str(ToMonthNo)
+        ToDate = '94/' + ToMonthNo_Pre + '/30'
